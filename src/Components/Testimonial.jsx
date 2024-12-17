@@ -74,7 +74,7 @@ function Testimonial() {
             }}
           >
             <img
-              src="../public/profile.jpeg"
+              src="/profile.jpeg"
               alt="profile"
               style={{ width: "80px", height: "80px", borderRadius: "50%" }}
             />
