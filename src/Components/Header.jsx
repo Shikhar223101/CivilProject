@@ -22,6 +22,9 @@ function Header() {
               fontSize: "30px",
               fontWeight: "bold",
               marginLeft: "25%",
+              "@media (max-width: 575px)": {
+                marginLeft: "0",
+              },
             }}
           >
             <PrecisionManufacturingIcon
@@ -39,6 +42,9 @@ function Header() {
               fontSize: "0.7rem",
               justifyContent: "center",
               marginTop: "1%",
+              "@media (max-width: 575px)": {
+                marginLeft: "0",
+              },
             }}
           >
             <span style={{ color: "gray", marginTop: "1%" }}>
@@ -46,13 +52,31 @@ function Header() {
               <span style={{ color: "black" }}>123-456-7890</span>
             </span>
           </p>
-          <p style={{ fontSize: "0.7rem", marginTop: "1%", marginLeft: "2%" }}>
+          <p
+            style={{
+              fontSize: "0.7rem",
+              marginTop: "1%",
+              marginLeft: "2%",
+              "@media (max-width: 575px)": {
+                marginLeft: "0",
+              },
+            }}
+          >
             <span style={{ color: "gray" }}>
               Email <br />
               <span style={{ color: "black" }}>singhshikhar2231@gmail.com</span>
             </span>
           </p>
-          <p style={{ fontSize: "0.7rem", marginTop: "1%", marginLeft: "2%" }}>
+          <p
+            style={{
+              fontSize: "0.7rem",
+              marginTop: "1%",
+              marginLeft: "2%",
+              "@media (max-width: 575px)": {
+                marginLeft: "0",
+              },
+            }}
+          >
             <span style={{ color: "gray" }}>
               Global Certificate <br />
               <span style={{ color: "black" }}> ISO 123-456-7890</span>
@@ -66,6 +90,9 @@ function Header() {
               fontSize: "0.7rem",
 
               marginLeft: "2%",
+              "@media (max-width: 575px)": {
+                marginLeft: "0",
+              },
             }}
             className="d-flex align-items-center"
           >
@@ -89,6 +116,9 @@ function Header() {
                 color: "white",
                 fontWeight: "bold",
                 fontSize: "0.8rem",
+                "@media (max-width: 575px)": {
+                  marginLeft: "0",
+                },
               }}
             >
               <Nav.Link href="/" style={{ color: "orange" }}>
@@ -115,7 +145,13 @@ function Header() {
               </Nav.Link>
             </Nav>
 
-            <Form className="d-flex" style={{ width: "25%" }}>
+            <Form
+              className="d-flex"
+              style={{
+                width: "25%",
+                "@media (max-width: 575px)": { width: "100%" },
+              }}
+            >
               <Button className="bg-transparent">
                 <SearchIcon />
               </Button>

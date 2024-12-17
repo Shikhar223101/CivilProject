@@ -15,25 +15,28 @@ function Hero() {
         backgroundPosition: "center",
       }}
     >
-      <h1
-        style={{
-          color: "white",
-          fontSize: "2rem",
-
-          marginBottom: "2rem",
-          marginLeft: "40%",
-        }}
-      >
-        WHEN SERVICES MEET INNOVATION
-      </h1>
-
-      <a
-        href="#"
-        className="btn btn-transparent"
-        style={{ marginTop: "15rem", color: "white", borderColor: "white" }}
-      >
-        OUR SERVICES
-      </a>
+      <Row className="w-100">
+        <Col xs={12} className="d-flex flex-column align-items-center">
+          <h1
+            style={{
+              color: "white",
+              fontSize: "2rem",
+              marginBottom: "2rem",
+              textAlign: "center",
+              marginLeft: "40%",
+            }}
+          >
+            WHEN SERVICES MEET INNOVATION
+          </h1>
+          <a
+            href="#"
+            className="btn btn-transparent"
+            style={{ color: "white", borderColor: "white", marginLeft: "40%" }}
+          >
+            OUR SERVICES
+          </a>
+        </Col>
+      </Row>
     </Container>
   );
 }

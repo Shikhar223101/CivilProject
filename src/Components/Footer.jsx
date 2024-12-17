@@ -14,9 +14,11 @@ function Footer() {
         marginTop: "25px",
         padding: "20px",
         marginBottom: "0px",
+        width: "100vw",
+        overflowX: "hidden",
       }}
     >
-      <Row style={{ objectPosition: "center" }}>
+      <Row style={{ objectPosition: "center", width: "100%" }}>
         <Col xmd={12} sm={2} style={{ marginLeft: "20px" }}></Col>
         <Col xmd={12} sm={2}>
           <HouseIcon
@@ -25,6 +27,10 @@ function Footer() {
               color: "orange",
               marginTop: "25px",
               marginLeft: "15px",
+              "@media (max-width: 768px)": {
+                fontSize: "30px",
+                marginLeft: "5px",
+              },
             }}
           />
           <h3
@@ -32,6 +38,10 @@ function Footer() {
               marginTop: "5px",
               marginLeft: "10px",
               justifyContent: "center",
+              "@media (max-width: 768px)": {
+                fontSize: "1rem",
+                marginTop: "10px",
+              },
             }}
           >
             1567
@@ -41,6 +51,9 @@ function Footer() {
               color: "orange",
               fontSize: "0.7rem",
               justifyContent: "center",
+              "@media (max-width: 768px)": {
+                fontSize: "0.5rem",
+              },
             }}
           >
             TOTAL PROJECTS
@@ -53,6 +66,10 @@ function Footer() {
               color: "orange",
               marginTop: "25px",
               marginLeft: "20px",
+              "@media (max-width: 768px)": {
+                fontSize: "30px",
+                marginLeft: "10px",
+              },
             }}
           />
           <h3
@@ -60,6 +77,10 @@ function Footer() {
               marginTop: "5px",
               marginLeft: "15px",
               justifyContent: "center",
+              "@media (max-width: 768px)": {
+                fontSize: "1rem",
+                marginTop: "10px",
+              },
             }}
           >
             567
@@ -69,6 +90,9 @@ function Footer() {
               color: "orange",
               fontSize: "0.7rem",
               justifyContent: "center",
+              "@media (max-width: 768px)": {
+                fontSize: "0.5rem",
+              },
             }}
           >
             STAFF MEMBERS
@@ -82,6 +106,10 @@ function Footer() {
               color: "orange",
               marginTop: "25px",
               marginLeft: "15px",
+              "@media (max-width: 768px)": {
+                fontSize: "30px",
+                marginLeft: "10px",
+              },
             }}
           />
           <h3
@@ -89,6 +117,10 @@ function Footer() {
               marginTop: "5px",
               marginLeft: "10px",
               justifyContent: "center",
+              "@media (max-width: 768px)": {
+                fontSize: "1rem",
+                marginTop: "10px",
+              },
             }}
           >
             4000
@@ -98,6 +130,9 @@ function Footer() {
               color: "orange",
               fontSize: "0.7rem",
               justifyContent: "center",
+              "@media (max-width: 768px)": {
+                fontSize: "0.5rem",
+              },
             }}
           >
             HOURS OF WORK
@@ -111,6 +146,10 @@ function Footer() {
               color: "orange",
               marginTop: "25px",
               marginLeft: "30px",
+              "@media (max-width: 768px)": {
+                fontSize: "30px",
+                marginLeft: "20px",
+              },
             }}
           />
           <h3
@@ -118,6 +157,10 @@ function Footer() {
               marginTop: "5px",
               marginLeft: "37px",
               justifyContent: "center",
+              "@media (max-width: 768px)": {
+                fontSize: "1rem",
+                marginTop: "10px",
+              },
             }}
           >
             44
@@ -128,6 +171,9 @@ function Footer() {
               fontSize: "0.7rem",
               justifyContent: "center",
               marginBottom: "25px",
+              "@media (max-width: 768px)": {
+                fontSize: "0.5rem",
+              },
             }}
           >
             COUNTRIES EXPERIENCE

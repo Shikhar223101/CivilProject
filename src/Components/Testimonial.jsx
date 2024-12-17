@@ -17,6 +17,18 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
   textAlign: "center",
   color: theme.palette.text.secondary,
+  [theme.breakpoints.down("md")]: {
+    height: "150px",
+    width: "200px",
+  },
+  [theme.breakpoints.down("sm")]: {
+    height: "100px",
+    width: "150px",
+  },
+  [theme.breakpoints.down("xs")]: {
+    height: "80px",
+    width: "120px",
+  },
 }));
 
 function Testimonial() {

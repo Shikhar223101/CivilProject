@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import TuneIcon from "@mui/icons-material/Tune";
 import ApartmentIcon from "@mui/icons-material/Apartment";
@@ -36,248 +36,249 @@ function Feature() {
       >
         WHAT WE DO
       </h1>
-      <Row>
-        <Col xm={12} sm={2}></Col>
-        <Col xm={12} sm={2} style={{ marginTop: "50px" }}>
-          <Row>
-            <Col xs={12} md={4}>
-              <ApartmentIcon
-                style={{
-                  fontSize: "40px",
-                  color: "orange",
-                  marginTop: "10px",
-                  marginLeft: "20px",
-                }}
-              />
-            </Col>
-            <Col xs={12} md={8}>
-              <h5
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.6rem",
-                  fontWeight: "bold",
-                }}
-              >
-                HOME CONSTRUCTION
-              </h5>
-              <p
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.5rem",
-                }}
-              >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-                officiis explicabo veniam nesciunt eum, consequuntur eveniet
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} md={4}>
-              <ConstructionIcon
-                style={{
-                  fontSize: "40px",
-                  color: "orange",
-                  marginTop: "10px",
-                  marginLeft: "20px",
-                }}
-              />
-            </Col>
-            <Col xs={12} md={8}>
-              <h5
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.6rem",
-                  fontWeight: "bold",
-                }}
-              >
-                BUILDING REMODELS
-              </h5>
-              <p
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.5rem",
-                }}
-              >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-                officiis explicabo veniam nesciunt eum, consequuntur eveniet
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} md={4}>
-              <DesignServicesIcon
-                style={{
-                  fontSize: "40px",
-                  color: "orange",
-                  marginTop: "10px",
-                  marginLeft: "20px",
-                }}
-              />
-            </Col>
-            <Col xs={12} md={8}>
-              <h5
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.6rem",
-                  fontWeight: "bold",
-                }}
-              >
-                INTERIOR DESIGN
-              </h5>
-              <p
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.5rem",
-                }}
-              >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-                officiis explicabo veniam nesciunt eum, consequuntur eveniet
-              </p>
-            </Col>
-          </Row>
-        </Col>
-        <Col xm={12} sm={4}>
-          <div>
+      <Container fluid>
+        <Row className="justify-content-center">
+          <Col xs={12} md={2} className="mb-5"></Col>
+          <Col xs={12} md={2} className="mb-5">
+            <Row>
+              <Col xs={12} md={4}>
+                <ApartmentIcon
+                  style={{
+                    fontSize: "40px",
+                    color: "orange",
+                    marginTop: "10px",
+                    marginLeft: "20px",
+                  }}
+                />
+              </Col>
+              <Col xs={12} md={8}>
+                <h5
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.6rem",
+                    fontWeight: "bold",
+                  }}
+                >
+                  HOME CONSTRUCTION
+                </h5>
+                <p
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.5rem",
+                  }}
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                  officiis explicabo veniam nesciunt eum, consequuntur eveniet
+                </p>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12} md={4}>
+                <ConstructionIcon
+                  style={{
+                    fontSize: "40px",
+                    color: "orange",
+                    marginTop: "10px",
+                    marginLeft: "20px",
+                  }}
+                />
+              </Col>
+              <Col xs={12} md={8}>
+                <h5
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.6rem",
+                    fontWeight: "bold",
+                  }}
+                >
+                  BUILDING REMODELS
+                </h5>
+                <p
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.5rem",
+                  }}
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                  officiis explicabo veniam nesciunt eum, consequuntur eveniet
+                </p>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12} md={4}>
+                <DesignServicesIcon
+                  style={{
+                    fontSize: "40px",
+                    color: "orange",
+                    marginTop: "10px",
+                    marginLeft: "20px",
+                  }}
+                />
+              </Col>
+              <Col xs={12} md={8}>
+                <h5
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.6rem",
+                    fontWeight: "bold",
+                  }}
+                >
+                  INTERIOR DESIGN
+                </h5>
+                <p
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.5rem",
+                  }}
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                  officiis explicabo veniam nesciunt eum, consequuntur eveniet
+                </p>
+              </Col>
+            </Row>
+          </Col>
+          <Col xs={12} md={3} className="mb-5">
             <img
               src="/png1.png"
-              style={{ width: "100%", height: "400px", marginTop: "20px" }}
+              style={{ width: "100%", height: "300px", marginTop: "20px" }}
               alt="construction image"
             />
-          </div>
-        </Col>
-        <Col xm={12} sm={2} style={{ marginTop: "50px" }}>
-          <Row>
-            <Col xs={12} md={4}>
-              <DrawIcon
-                style={{
-                  fontSize: "40px",
-                  color: "orange",
-                  marginTop: "10px",
-                  marginLeft: "20px",
-                }}
-              />
-            </Col>
-            <Col xs={12} md={8}>
-              <h5
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.6rem",
-                  fontWeight: "bold",
-                }}
-              >
-                EXTERIOR DESIGN
-              </h5>
-              <p
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.5rem",
-                }}
-              >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-                officiis explicabo veniam nesciunt eum, consequuntur eveniet
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} md={4}>
-              <StrollerIcon
-                style={{
-                  fontSize: "40px",
-                  color: "orange",
-                  marginTop: "10px",
-                  marginLeft: "20px",
-                }}
-              />
-            </Col>
-            <Col xs={12} md={8}>
-              <h5
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.6rem",
-                  fontWeight: "bold",
-                }}
-              >
-                RENOVATION
-              </h5>
-              <p
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.5rem",
-                }}
-              >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-                officiis explicabo veniam nesciunt eum, consequuntur eveniet
-              </p>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} md={4}>
-              <HealthAndSafetyIcon
-                style={{
-                  fontSize: "40px",
-                  color: "orange",
-                  marginTop: "10px",
-                  marginLeft: "20px",
-                }}
-              />
-            </Col>
-            <Col xs={12} md={8}>
-              <h5
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.6rem",
-                  fontWeight: "bold",
-                }}
-              >
-                SAFETY MANAGEMENT
-              </h5>
-              <p
-                style={{
-                  marginLeft: "10px",
-                  marginTop: "10px",
-                  fontSize: "0.5rem",
-                }}
-              >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-                officiis explicabo veniam nesciunt eum, consequuntur eveniet
-              </p>
-            </Col>
-          </Row>
-        </Col>
-        <Col xm={12} sm={2}></Col>
-        <div
-          style={{
-            backgroundColor: "#e6e6e6",
-
-            height: "100px",
-            width: "100%",
-          }}
-        >
-          <h1
+          </Col>
+          <Col xs={12} md={2} className="mb-5">
+            <Row>
+              <Col xs={12} md={4}>
+                <DrawIcon
+                  style={{
+                    fontSize: "40px",
+                    color: "orange",
+                    marginTop: "10px",
+                    marginLeft: "20px",
+                  }}
+                />
+              </Col>
+              <Col xs={12} md={8}>
+                <h5
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.6rem",
+                    fontWeight: "bold",
+                  }}
+                >
+                  EXTERIOR DESIGN
+                </h5>
+                <p
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.5rem",
+                  }}
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                  officiis explicabo veniam nesciunt eum, consequuntur eveniet
+                </p>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12} md={4}>
+                <StrollerIcon
+                  style={{
+                    fontSize: "40px",
+                    color: "orange",
+                    marginTop: "10px",
+                    marginLeft: "20px",
+                  }}
+                />
+              </Col>
+              <Col xs={12} md={8}>
+                <h5
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.6rem",
+                    fontWeight: "bold",
+                  }}
+                >
+                  RENOVATION
+                </h5>
+                <p
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.5rem",
+                  }}
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                  officiis explicabo veniam nesciunt eum, consequuntur eveniet
+                </p>
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={12} md={4}>
+                <HealthAndSafetyIcon
+                  style={{
+                    fontSize: "40px",
+                    color: "orange",
+                    marginTop: "10px",
+                    marginLeft: "20px",
+                  }}
+                />
+              </Col>
+              <Col xs={12} md={8}>
+                <h5
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.6rem",
+                    fontWeight: "bold",
+                  }}
+                >
+                  SAFETY MANAGEMENT
+                </h5>
+                <p
+                  style={{
+                    marginLeft: "10px",
+                    marginTop: "10px",
+                    fontSize: "0.5rem",
+                  }}
+                >
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                  officiis explicabo veniam nesciunt eum, consequuntur eveniet
+                </p>
+              </Col>
+            </Row>
+          </Col>
+          <Col xs={12} md={2} className="mb-5"></Col>
+          <div
             style={{
-              marginTop: "50px",
-              fontFamily: "'Orbitron', sans-serif",
-
-              textAlign: "center",
-              fontSize: "0.8rem",
-              color: "black",
+              backgroundColor: "#e6e6e6",
+              marginTop: "-50px",
+              height: "100px",
+              width: "100%",
             }}
           >
-            WORK OF EXCELLENCE
-          </h1>
-        </div>
-      </Row>
+            <h1
+              style={{
+                marginTop: "50px",
+                fontFamily: "'Orbitron', sans-serif",
+
+                textAlign: "center",
+                fontSize: "0.8rem",
+                color: "black",
+                fontWeight: "bold",
+              }}
+            >
+              WORK OF EXCELLENCE
+            </h1>
+          </div>
+        </Row>
+      </Container>
     </div>
   );
 }

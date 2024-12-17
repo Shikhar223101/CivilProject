@@ -15,7 +15,6 @@ function Project() {
         style={{
           marginTop: "50px",
           fontFamily: "'Orbitron', sans-serif",
-
           textAlign: "center",
           fontSize: "0.8rem",
           color: "black",
@@ -37,8 +36,8 @@ function Project() {
       </h1>
       <div>
         <Row>
-          <Col xm={12} sm={3}></Col>
-          <Col xm={12} sm={2}>
+          <Col xs={12} sm={3}></Col>
+          <Col xs={12} sm={2}>
             <Card>
               <CardActionArea style={{ width: "100%" }}>
                 <CardMedia
@@ -59,7 +58,7 @@ function Project() {
               </CardActionArea>
             </Card>
           </Col>
-          <Col xm={12} sm={2}>
+          <Col xs={12} sm={2}>
             <Card>
               <CardActionArea style={{ width: "100%" }}>
                 <CardMedia
@@ -71,7 +70,8 @@ function Project() {
                 <CardContent>
                   <Typography variant="body2" sx={{ color: "text.secondary" }}>
                     THANDLER AIRPORT WATER RECLAMATION FACILITY EXPANSION
-                    PROJECT NAMED <br />
+                    PROJECT NAMED
+                    <br />
                     <br />
                     JUNE 17, 2017
                   </Typography>
@@ -97,7 +97,7 @@ function Project() {
               SEE MORE PROJECT
             </Button>
           </Col>
-          <Col xm={12} sm={2}>
+          <Col xs={12} sm={2}>
             <Card>
               <CardActionArea style={{ width: "100%" }}>
                 <CardMedia
@@ -109,14 +109,15 @@ function Project() {
                 <CardContent>
                   <Typography variant="body2" sx={{ color: "text.secondary" }}>
                     SILICON BENCH AND CORNIKE BEGIN CONSTRUCTION SOLAR
-                    FACILITIES <br />
+                    FACILITIES
+                    <br />
                     <br /> AUG 13, 2022
                   </Typography>
                 </CardContent>
               </CardActionArea>
             </Card>
           </Col>
-          <Col xm={12} sm={3}></Col>
+          <Col xs={12} sm={3}></Col>
         </Row>
       </div>
 

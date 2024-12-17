@@ -32,34 +32,33 @@ function Gallery() {
             </Typography>
 
             <div
-              className="flex justify-center mb-4 "
+              className="flex justify-center mb-4 flex-wrap"
               style={{ fontSize: "0.5rem", marginTop: "30px" }}
             >
-              <Button variant="contained" color="warning" className="mx-2">
+              <Button variant="contained" color="warning" className="mx-2 my-1">
                 SHOW ALL
               </Button>
-              <Button variant="text" className="mx-2">
+              <Button variant="text" className="mx-2 my-1">
                 COMMERCIAL
               </Button>
-              <Button variant="text" className="mx-2">
+              <Button variant="text" className="mx-2 my-1">
                 EDUCATION
               </Button>
-              <Button variant="text" className="mx-2">
+              <Button variant="text" className="mx-2 my-1">
                 GOVERNMENT
               </Button>
-              <Button variant="text" className="mx-2">
+              <Button variant="text" className="mx-2 my-1">
                 INFRASTRUCTURE
               </Button>
-              <Button variant="text" className="mx-2">
+              <Button variant="text" className="mx-2 my-1">
                 RESIDENTIAL
               </Button>
             </div>
 
             <div
+              className="bg-cover bg-center"
               style={{
                 backgroundImage: "url(/gallery2.png)",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
                 height: "70vh",
               }}
             ></div>
@@ -68,9 +67,8 @@ function Gallery() {
               <Button
                 variant="contained"
                 color="warning"
+                className="mt-5 mb-5"
                 style={{
-                  marginTop: "20px",
-                  marginBottom: "20px",
                   fontSize: "0.5rem",
                   justifyContent: "center",
                   alignItems: "center",
