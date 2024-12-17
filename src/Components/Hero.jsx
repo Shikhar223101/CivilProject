@@ -6,7 +6,7 @@ function Hero() {
       fluid
       className="hero"
       style={{
-        backgroundImage: "url(./src/assets/bg1.jpeg)",
+        backgroundImage: "url(../public/bg1.jpeg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "70vh",

@@ -44,7 +44,7 @@ function Project() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="./src/assets/project (1).jpeg"
+                  image="../public/project (1).jpeg"
                   alt="green iguana"
                 />
                 <CardContent>
@@ -65,7 +65,7 @@ function Project() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="./src/assets/project (2).jpeg"
+                  image="../public/project (2).jpeg"
                   alt="green iguana"
                 />
                 <CardContent>
@@ -103,7 +103,7 @@ function Project() {
                 <CardMedia
                   component="img"
                   height="140"
-                  image="./src/assets/project (3).jpeg"
+                  image="../public/project (3).jpeg"
                   alt="green iguana"
                 />
                 <CardContent>

@@ -145,7 +145,7 @@ function Feature() {
         <Col xm={12} sm={4}>
           <div>
             <img
-              src=".\src\assets\png1.png"
+              src="../public/png1.png"
               style={{ width: "100%", height: "400px", marginTop: "20px" }}
               alt="construction image"
             />

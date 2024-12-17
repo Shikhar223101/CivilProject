@@ -7,7 +7,7 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundImage: "url(./src/assets/client1.png)",
+  backgroundImage: "url(../public/client1.png)",
   backgroundSize: "cover",
   backgroundPosition: "center",
   height: "100px",
@@ -74,7 +74,7 @@ function Testimonial() {
             }}
           >
             <img
-              src="./src/assets/profile.jpeg"
+              src="../public/profile.jpeg"
               alt="profile"
               style={{ width: "80px", height: "80px", borderRadius: "50%" }}
             />
