@@ -57,7 +57,7 @@ function Gallery() {
 
             <div
               style={{
-                backgroundImage: "url(../public/gallery2.png)",
+                backgroundImage: "url(/gallery2.png)",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 height: "70vh",

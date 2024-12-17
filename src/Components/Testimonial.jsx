@@ -7,7 +7,7 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundImage: "url(../public/client1.png)",
+  backgroundImage: "url(/client1.png)",
   backgroundSize: "cover",
   backgroundPosition: "center",
   height: "100px",
